@@ -1,0 +1,24 @@
+.wordCounterComponent {
+    background: gray;
+    border: 1px solid black;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+.wordCounterComponent span {
+    font-family: Bahnschrift, serif;
+    margin-left: 5px;
+}
+.mostWords {
+    overflow: hidden;
+}
+.mostWordList {
+    overflow-y: auto;
+}
+.error {
+    text-align: center;
+}
+.error span {
+    font-family: Bahnschrift, serif;
+    color: red;
+}
